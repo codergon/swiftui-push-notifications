@@ -11,6 +11,8 @@
 		1F9FA6742D4C4C0F00302044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FA6732D4C4C0F00302044 /* ContentView.swift */; };
 		1F9FA6762D4C4C1000302044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA6752D4C4C1000302044 /* Assets.xcassets */; };
 		1F9FA6792D4C4C1000302044 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA6782D4C4C1000302044 /* Preview Assets.xcassets */; };
+		1F9FA6802D4C4C4F00302044 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FA67F2D4C4C4F00302044 /* Home.swift */; };
+		1F9FA6832D4C4D1B00302044 /* Pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FA6822D4C4D1B00302044 /* Pop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		1F9FA6732D4C4C0F00302044 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F9FA6752D4C4C1000302044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9FA6782D4C4C1000302044 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F9FA67F2D4C4C4F00302044 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1F9FA6822D4C4D1B00302044 /* Pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pop.mp3; sourceTree = "<group>"; };
+		1F9FA6842D4C4D4400302044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		1F9FA6702D4C4C0F00302044 /* PushNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				1F9FA6842D4C4D4400302044 /* Info.plist */,
+				1F9FA6812D4C4D0600302044 /* Sounds */,
 				1F9FA6712D4C4C0F00302044 /* PushNotificationsApp.swift */,
 				1F9FA6732D4C4C0F00302044 /* ContentView.swift */,
+				1F9FA67F2D4C4C4F00302044 /* Home.swift */,
 				1F9FA6752D4C4C1000302044 /* Assets.xcassets */,
 				1F9FA6772D4C4C1000302044 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				1F9FA6782D4C4C1000302044 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F9FA6812D4C4D0600302044 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1F9FA6822D4C4D1B00302044 /* Pop.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9FA6832D4C4D1B00302044 /* Pop.mp3 in Resources */,
 				1F9FA6792D4C4C1000302044 /* Preview Assets.xcassets in Resources */,
 				1F9FA6762D4C4C1000302044 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F9FA6742D4C4C0F00302044 /* ContentView.swift in Sources */,
+				1F9FA6802D4C4C4F00302044 /* Home.swift in Sources */,
 				1F9FA6722D4C4C0F00302044 /* PushNotificationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 89F9H4X24M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PushNotifications/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 89F9H4X24M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PushNotifications/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
